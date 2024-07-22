@@ -11,7 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 import XCTest
-import SE0000_CircularBuffer
+import CircularBuffer
 
 private func makeCircularBuffer<S: Sequence>(frontSequence: S, backSequence: S, capacity: Int) -> CircularBuffer<S.Element> {
   var circularBuffer = CircularBuffer<S.Element>(capacity: capacity)
