@@ -14,21 +14,21 @@
 import PackageDescription
 
 let package = Package(
-  name: "SE0000_CircularBuffer",
+  name: "CircularBuffer",
   products: [
     .library(
-      name: "SE0000_CircularBuffer",
-      targets: ["SE0000_CircularBuffer"]),
+      name: "CircularBuffer",
+      targets: ["CircularBuffer"]),
   ],
   dependencies: [
   ],
   targets: [
     .target(
-      name: "SE0000_CircularBuffer",
+      name: "CircularBuffer",
       dependencies: []),
     
     .testTarget(
-      name: "SE0000_CircularBufferTests",
-      dependencies: ["SE0000_CircularBuffer"]),
+      name: "CircularBufferTests",
+      dependencies: ["CircularBuffer"]),
   ]
 )
