@@ -1,5 +1,18 @@
 # CircularBuffer
 
+> **Note:** This package is a **fork** of a Swift Evolution proposal for
+  inclusion in the Swift standard library. The [original package](https://github.com/kitaisreal/swift-evolution-staging) is from
+  [Maksim Kita](https://github.com/kitaisreal). The fork is just used
+  to make the name more natural.
+
+  * Thread on [swiftlang](https://github.com/swiftlang/swift/pull/30242)
+  * Thread on [Swift forum](https://forums.swift.org/t/circular-buffer/34534)
+
+<br>
+<br>
+
+_Original README.md starts here :_
+
 > **Note:** This package is a part of a Swift Evolution proposal for
   inclusion in the Swift standard library, and is not intended for use in
   production code at this time.
@@ -11,7 +24,7 @@
 ## Introduction
 
 ```swift
-import SE0000_CircularBuffer
+import CircularBuffer
 ```
 
 An ordered, random-access collection.
@@ -88,8 +101,7 @@ add the following to your `Package.swift` file's dependencies:
 
 ```swift
 .package(
-    url: "https://github.com/apple/swift-evolution-staging.git",
-    .branch("SE0000_PackageName")),
+    url: "https://github.com/otabuzzman/CircularBuffer.git"),
 ```
 
 
